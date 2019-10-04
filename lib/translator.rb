@@ -5,7 +5,7 @@ def load_library(path)
   emoticons = {"get_meaning" => {}, "get_emoticon" => {}}
 
   require "yaml"
-  fruits = YAML.load_file('./lib/emoticons.yml') 
+  #fruits = YAML.load_file('./lib/emoticons.yml') 
   YAML.load_file(path).each do |meaning, describe|
      #set eng, jan from describe, so eng would be the first value, jan the second
      eng, jan = describe
