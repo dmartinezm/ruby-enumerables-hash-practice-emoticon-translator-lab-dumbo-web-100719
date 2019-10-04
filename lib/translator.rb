@@ -11,7 +11,7 @@ def load_library(path)
      emoticons["get_emoticon"][eng] = jan
   end
   emoticons
-end
+
 end
 
 def get_japanese_emoticon
